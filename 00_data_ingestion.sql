@@ -62,7 +62,7 @@ CREATE TABLE covid_data (
     human_development_index DOUBLE NULL
 );
 
-LOAD DATA LOCAL INFILE "C:/Users/simid/Desktop/PROJECTS/Covid Deaths/Covid-dataset.csv" 
+LOAD DATA LOCAL INFILE "HERE YOU HAVE TO PUT THE ROUTE OF THE COVID DATA-SET" 
 INTO TABLE covid_data 
 FIELDS TERMINATED BY ','  
 ENCLOSED BY '"' 
